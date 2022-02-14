@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+    position: relative;
+  max-width: 1024px;
+  height: 2000px;
+  margin: 0 auto;
+  border: 1px solid #173042;
+}
+ul {
+  list-style-type: none;
+}
+header {
+  display: flex;
+  width: 100%;
+  color: #fff;
+  margin-bottom: 50px;
+}
+h3 {
+  color: goldenrod;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contact-details {
+  padding-top: 20px;
+  width: 50%;
+  text-align: right;
+  list-style-type: none;
+}
+.contact-details li {
+  padding: 10px 20px 10px 10px;
+  text-align: right;
+  list-style-type: none;
+}
+
+.title {
+  width: 50%;
+  padding: 30px;
+}
+#headshot {
+  position: relative;
+  float: right;
+  right: 250px;
+  top: -90px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+.svg-top {
+  display: block;
+  width: 1024px;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 500px;
+}
+nav {
+    padding-top: 30px;
+    margin-top: 260px;
+}
+.page-links li {
+  display: inline;
+  background-color: #fff;
+  margin: 20px;
+}
+button {
+  color: #000;
+  background-color: #fff;
+  width: 140px;
+  height: 40px;
+  border: solid 1px black;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+}
+a:visited {
+  color: #173042;
+}
+
+a:active {
+  color: blue;
+}
+.color-headings {
+  color: #236477;
+  margin: 40px 0 50px 0;
+}
+.page-links {
+  text-align: center;
+}
+
+main {
+    position: relative;
+  margin: 50px 20px 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+.flex-col-1,
+.flex-col-2 {
+  margin: 0 auto;
+  text-align: left;
+  width: 45%;
+  padding: 20px;
+}
+.skills li {
+  width: 290px;
+  background-color: #236477;
+  padding: 7px;
+  margin: 30px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+}
+.git-linkedin-icons li {
+  margin: 5px;
+  display: inline;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+}
+.home-btn{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}

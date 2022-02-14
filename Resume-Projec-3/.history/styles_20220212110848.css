@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: rgb(29, 168, 168);
+    color: #fff;
+}
+.contact-details {
+    text-align: right;
+}
+#headshot {
+    /* margin: 0 auto; */
+}
+.page-links li{
+    display: inline;
+}
+.color-headings {
+    color: rgb(29, 168, 168);
+}
